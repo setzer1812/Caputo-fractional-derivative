@@ -1,18 +1,15 @@
 function [g] = quadrature(n,alpha)
 
-% Given a function f in C^4[0,T], this function computes the the weighted 
-% coefficients of the (4 - alpha)-th order quadrature formule (2.7) develo-
-% ped in [1], to evaluate numerically the Caputo derivative of order alpha 
+% This function computes weights used in the quadrature rule of
+% (4 - alpha)-th to compute the Caputo's fractional derivative 
+% developedin [1]. 
 %
 % Inputs:
-%   T: final time
-%   n: number of points
-%   f: sampled function on [0,T]
+%   n: number of points on the time interval
 %   alpha: derivative order
 %
 % Output:
-%   df: Caputo derivative at time T
-%    g: vector with the quadrature weigths
+%   g: vector with the quadrature weigths
 %
 % References:
 %
