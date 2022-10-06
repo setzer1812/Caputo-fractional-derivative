@@ -1,6 +1,7 @@
-% Computes the Caputo derivative of order alpha (0 < alpha < 1) of f(t)=t^4
-% for t in [0,T], with T=1, by using the (4 - alpha)-th order quadrature 
-% formule developed in [1]. See example 3.1 at [1].
+% This script tests the function QUADRATURE.m, used to generate weights used for 
+% the qudrature rule developed in [1]. 
+% The example compute Caputo's derivative of order alpha (0 < alpha < 1) of f(t)=t^4
+% for t in [0,T], with T=1. See example 3.1 at [1].
 %
 % References:
 %
